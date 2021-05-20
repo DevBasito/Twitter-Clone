@@ -1,0 +1,45 @@
+ul{list-style-type: none;}
+li{padding: 10px}
+footer:hover, li:hover{border-radius: 20px;
+background-color: powderblue;
+color: #0275d8;
+cursor: pointer;}
+input[type=text]#search {border-radius: 20px;
+padding: 20px;
+}
+
+#trend{
+    border-radius: 20px;
+}
+button{border-radius:50px;
+}
+#post:hover{
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+img#dp{border-radius: 50%;
+}
+#home{
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+div#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    border: 2px ridge white;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+#side{
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+}
+#mid{
+  margin-left: 25%;
+}
+

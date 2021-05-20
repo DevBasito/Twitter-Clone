@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3f6adae92c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./twitter.css">
+</head>
+
+<body>
+    <div class="container-fluid d-flex flex-row flex-wrap">
+        <div class="w-25" id="side">
+            <ul>
+                <li>
+                    <i class="fab fa-twitter text-primary" style="font-size: 30px;"></i><br>
+                </li>
+                <li>
+                    <h5><i class="fa fa-home pr-4" style="font-size: larger;"></i><strong>Home</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="fa fa-hashtag pr-4" style="font-size: larger;"></i><strong>Explore</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="far fa-bell pr-4" style="font-size: larger;"></i><strong>Notifications</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="fa fa-envelope-o pr-4" style="font-size: 25px;"></i><strong>Messages</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="far fa-bookmark pr-4" style="font-size: 25px;"></i><strong>Bookmarks</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="far fa-list-alt pr-4" style="font-size: 25px;"></i><strong>Lists</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="far fa-user pr-4" style="font-size: 25px;"></i><strong>Profile</strong></h5>
+                </li>
+                <li>
+                    <h5><i class="	fas fa-ellipsis-h pr-4" style="font-size: 25px;"></i><strong>More</strong></h5>
+                </li>
+            </ul>
+
+            <center><button class="text-light btn btn-primary btn-lg pr-5 pl-5">Tweet</button></center>
+
+
+            <footer class="container flex-row flex-wrap d-flex text-center mt-3 justify-content-center">
+                <div><img src="./dp/me.jpg" height="50px" width="50px" id="dp"></div>
+                <div>
+                    <strong>DevBasito</strong>
+                    <p>@baxx_v</p>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+        <div class="w-50 border" id="mid">
+
+            <div id="home" class="bg-white">
+
+                <h5 class="p-2"><strong>Home</strong></h5>
+                <hr>
+            </div>
+
+            <div class="pl-3">
+                <img src="./dp/me.jpg" height="50px" width="50px" id="dp" class="">
+                <input type="text" placeholder="What's Happening?" style="background-color: white; border: 0px"> <br>
+            </div>
+
+            <div class="pb-5 pr-3">
+                <button class="btn btn-primary float-right">Tweet</button>
+            </div>
+            <hr>
+
+            <div class="p-2 bg-light"></div>
+
+            <div class="" id="post">
+
+                <div class="container-fluid flex-row d-flex flex-inline">
+
+                    <div><img src="./dp/ap.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+
+                    <div>
+                        <strong>Aproko Doctor <i class="small text-mute">@aproko_doctor. 1h</i></strong><br>
+                        <span>
+                            If you are seeing this tweet and you can, stand up and move around. Help your heart. Drink
+                            some
+                            water. Help your Kidneys too
+                        </span><br>
+                    </div>
+
+                </div>
+
+                <div class="container-fluid w-75 flex-row flex-wrap pr-5 d-flex justify-content-between mt-2">
+                    <div class="small"><i class="far fa-comment"></i> 542</div>
+                    <div class="small"><i class="far fa-heart"></i> 3056</div>
+                    <div class="small"><i class="fas fa-retweet"></i> 500</div>
+                    <div class="small"><i class="fas fa-share-square"></i> </div>
+
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="" id="post">
+                <div class="container-fluid flex-row d-flex flex-inline">
+                    <div><img src="./dp/ty.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>Your Daddy <i class="small text-mute">@ToyosiGodwin. 3h</i></strong><br>
+                        <p>If you have a digital skill, create a portfolio, write a kickass cover letter, and get your
+                            resume
+                            up. <br>
+
+                            Create a clean gmail, with good signatures. <br>
+
+                            Clean your social media. <br>
+
+                            Go to Indeed, or other platforms, apply jobs posted within the last 3 days. <br>
+
+                            There's more. But e go work.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-fluid flex-row flex-wrap w-75 pr-5 d-flex justify-content-between mt-2">
+                    <div class="small"><i class="far fa-comment"></i> 542</div>
+                    <div class="small"><i class="far fa-heart"></i> 3056</div>
+                    <div class="small"><i class="fas fa-retweet"></i> 500</div>
+                    <div class="small"><i class="fas fa-share-square"></i> </div>
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="" id="post">
+                <div class="container-fluid flex-row d-flex flex-inline">
+                    <div><img src="./dp/hau.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>Hauwa <i class="small text-mute">@Hauwa_L. May 4</i></strong><br>
+                        <p>
+                            (Inside Kabiyesi's palace) <br>
+
+                            Me: *reaches for the dodo on the table* <br>
+
+                            Oloye Balogun: *slaps my hand* Where did you take Kabiyesi to? <br>
+
+                            Me: Spain. <br>
+
+                            Ifa priest: Shut up! Ifa said Kabiyesi is inside Sahara Desert! <br>
+
+                            Me: If you know that one, why are you now asking me? <br>
+                        </p>
+
+                        <img src="./dp/jf.jpg" width="90%">
+                    </div>
+                </div>
+
+
+                <div class="container-fluid flex-row flex-wrap w-75 pr-5 d-flex justify-content-between mt-3" id="post">
+                    <div class="small"><i class="far fa-comment"></i> 513</div>
+                    <div class="small"><i class="far fa-heart"></i> 2046</div>
+                    <div class="small"><i class="fas fa-retweet"></i> 600</div>
+                    <div class="small"><i class="fas fa-share-square"></i> </div>
+
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="" id="post">
+                <div class="container-fluid flex-row d-flex flex-inline">
+                    <div><img src="./dp/hau.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>#OurFavOnlineDoc <i class="small text-mute">@DrOlufunmilayo. 50m</i></strong><br>
+                        <p>It’s now 9:30pm in Nigeria. <br>
+                            Leave that indomie.<br>
+                            Leave that moimoi.<br>
+                            Leave that soup.<br>
+                            Leave that rice.<br>
+                            Leave that cake.<br>
+                            Leave that cornflakes.<br>
+                            Leave that soft drink.<br>
+
+                            Nkechi, leave that eba.<br>
+                            Gbenga and Chijioke, you too.<br>
+
+                            You are not a hoodlum.<br>
+                            Stop looting your kitchen at night.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-fluid flex-row w-75 flex-wrap pr-5 d-flex justify-content-between mt-2">
+                    <div class="small"><i class="far fa-comment"></i> 645</div>
+                    <div class="small"><i class="far fa-heart"></i> 4007</div>
+                    <div class="small"><i class="fas fa-retweet"></i> 605</div>
+                    <div class="small"><i class="fas fa-share-square"></i> </div>
+
+                </div>
+            </div>
+            <hr>
+
+        </div>
+
+
+
+
+        <div class="w-25 p-3">
+
+            <div class="form-group mb-3 ">
+                <input type="text" class="form-control bg-light" id="search" placeholder="Search Twitter"
+                    name="username">
+            </div>
+
+            <div class="bg-light py-2" id="trend">
+
+                <h5><strong class="p-3">Nigerian trends</strong></h5>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="small text-mute">1. Trending</span><br>
+                    <strong>#EndSars</strong><br>
+                    <span class="small text-mute">15,043 Tweets</span>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="small text-mute">2. Trending</span><br>
+                    <strong>Cardi B</strong><br>
+                    <span class="small text-mute">5047 Tweets</span>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="small text-mute">3. Trending</span><br>
+                    <strong>Desmond Elliot</strong><br>
+                    <span class="small text-mute">3049 Tweets</span>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="small text-mute">4. Trending</span><br>
+                    <strong>Klaus</strong><br>
+                    <span class="small text-mute">10,046 Tweets</span>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="small text-mute">5. Trending</span><br>
+                    <strong>#GOT</strong><br>
+                    <span class="small text-mute">50,044 Tweets</span>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="text-primary">Show more</span><br>
+                </div>
+
+            </div>
+
+
+
+            <div class="bg-light mt-3 py-2" id="trend">
+
+                <h5><strong class="p-3">Who to Follow</strong></h5>
+                <hr>
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-around">
+                    <div><img src="./dp/asa.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>Asa</strong><br>
+                        <span class="small text-mute">@Asa_official</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-around">
+                    <div><img src="./dp/mc.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>McXXXXX</strong><br>
+                        <span class="small text-mute">@mikeDamilare</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+
+                <div class="pl-3 container flex-row d-flex flex-inline ">
+                    <div><img src="./dp/dan.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>Daniel Bukunyimi</strong><br>
+                        <span class="small text-mute">@danielbyorn</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-around">
+                    <div><img src="./dp/ayi.jpg" height="50px" width="50px" id="dp" class="mr-3"></div>
+                    <div>
+                        <strong>Aeeshaah</strong><br>
+                        <span class="small text-mute">@aishacodes</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+                <div class="pl-3">
+                    <span class="text-primary">Show more</span><br>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="bg-light mt-3 py-2" id="trend">
+
+                <h5><strong class="p-3">Topics to Follow</strong></h5>
+                <hr>
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-between">
+                    
+                    <div>
+                        <strong>Marvel</strong><br>
+                        <span class="small text-mute">Movies.</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-between">
+                    
+                    <div>
+                        <strong>Netflix</strong><br>
+                        <span class="small text-mute">Tv Shows.</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+
+                <div class="pl-3 container flex-row d-flex flex-inline justify-content-between">
+                    
+                    <div>
+                        <strong>JavaScript</strong><br>
+                        <span class="small text-mute">Technology</span>
+                    </div>
+                    <div><button class="btn btn-outline-primary">Follow</button></div>
+                </div>
+                <hr>
+
+
+                <div class="pl-3">
+                    <span class="text-primary">Show more</span><br>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="bg-white p-1 pr-3 mr-3 container flex-inline d-flex flex-row justify-content-between" id="fixed">
+        <div>
+            <h4><strong>Messages</strong></h4>
+
+        </div>
+        <div>
+            <i class="fa fa-envelope-o text-primary" style="font-size:x-large;"></i>
+            <i class=" material-icons text-primary" style="font-size:xx-large;">expand_less</i>
+        </div>
+    </div>
+
+</body>
+
+</html>
