@@ -43,3 +43,15 @@ div#fixed {
   margin-left: 25%;
 }
 
+@media screen and (max-width:768px){
+
+  #side, #toptrend, div#fixed, #msg{
+   
+    display: none;
+    
+    }
+  #mid{
+    width: 100% !important;
+    margin-left: 0;
+  }
+  }
